@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova | Technology</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>TechNova.</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button onclick="toggleTheme()">🌙</button>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Technology for a Better Future</h1>
+        <p>Discover innovative solutions for your digital world.</p>
+        <button onclick="showMessage()">Explore More</button>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>We create modern digital experiences using technology,
+        creativity and innovation.</p>
+    </section>
+
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>💻 Web Development</h3>
+                <p>Modern and responsive websites.</p>
+            </div>
+
+            <div class="card">
+                <h3>☁️ Cloud Solutions</h3>
+                <p>Scalable cloud infrastructure.</p>
+            </div>
+
+            <div class="card">
+                <h3>🚀 DevOps</h3>
+                <p>Automated deployment and workflows.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <button onclick="sendMessage()">Submit</button>
+        <p id="result"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 TechNova. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
